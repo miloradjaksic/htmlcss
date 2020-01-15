@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    height: 25vh;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.red {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.podlista {
+    font-size: 70%;
+    color:#750b14;
+}
+
+.podlista li {
+    display: table-row-group; 
+    text-align: center;
+    padding-left: 20%;
+}
+
+.slika {
+    height: 300px;
+    width: auto;
+    padding-top: 3%;
+}
+
+.slika:hover {
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.forma {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#instagram a:link,
+#instagram a:visited {
+    text-decoration: none;
+    color: #750b14;
+}
+
+#instagram a:hover,
+#instagram a:active {
+    text-decoration: none;
+    color: #750b14ad;
+    transition: 0.2s;
+}
